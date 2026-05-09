@@ -1,0 +1,518 @@
+[
+  {
+    "id": "rec_01",
+    "category": "recruitment_rag",
+    "question": "深圳烟草工业2026校招一共招多少人？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "35",
+      "深圳烟草"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "深圳烟草",
+    "relevant_chunk_ids": [
+      "0075e848-f64e-4d9a-961a-ad2976bba8de",
+      "019743af-1900-4fb4-9ba0-262603b73263"
+    ],
+    "relevant_chunk_ids_draft": [
+      "0075e848-f64e-4d9a-961a-ad2976bba8de",
+      "019743af-1900-4fb4-9ba0-262603b73263"
+    ],
+    "relevant_chunk_ids_draft_meta": {
+      "rule": {
+        "top_n": 2,
+        "min_score": 2,
+        "unique_by_source": true
+      },
+      "query_terms": [
+        "深圳烟草",
+        "35",
+        "深圳烟草工业",
+        "2026",
+        "校招一共招多少人"
+      ],
+      "draft_candidates": [
+        {
+          "chunk_id": "0075e848-f64e-4d9a-961a-ad2976bba8de",
+          "score": 4,
+          "doc_type": "recruitment_notice",
+          "company": "深圳烟草工业有限责任公司",
+          "source_url": "file:///D:/Code/AI_product/Research%20Assistant/original_data/recruitment_rag/%E6%B7%B1%E5%9C%B3%E7%83%9F%E8%8D%89%E5%B7%A5%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8.txt",
+          "heading_path": "section/三、招聘对象和条件",
+          "hit_terms": [
+            "深圳烟草",
+            "深圳烟草工业",
+            "2026"
+          ],
+          "preview": "[公司:深圳烟草工业有限责任公司 | 届次:unknown | 类型:recruitment_notice]\n\n三、招聘对象和条件\n\n（一）应聘人员为2026年全国普通高等院校统分统招应届毕业生，符合招聘专业及学历相关要求，并于2026年7月31日前取得相应的学历、学位证书。\n\n（二）国（境）外高校2025年8月1日至2026年7月31日毕业的留学生，符合招聘专业及学历相关要求，并于2026年7月31日前取得相应的学历、学位证书和国家教育部出具的国（境）外学历学位认证书。\n\n（三）本科毕业生年龄需在26周岁及以下（"
+        },
+        {
+          "chunk_id": "019743af-1900-4fb4-9ba0-262603b73263",
+          "score": 4,
+          "doc_type": "recruitment_notice",
+          "company": "深圳烟草工业有限责任公司",
+          "source_url": "file:///D:/Code/AI_product/Research%20Assistant/original_data/%E6%B7%B1%E5%9C%B3%E7%83%9F%E8%8D%89%E5%B7%A5%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8.txt",
+          "heading_path": "section/三、招聘对象和条件",
+          "hit_terms": [
+            "深圳烟草",
+            "深圳烟草工业",
+            "2026"
+          ],
+          "preview": "[公司:深圳烟草工业有限责任公司 | 届次:unknown | 类型:recruitment_notice]\n\n三、招聘对象和条件\n\n（一）应聘人员为2026年全国普通高等院校统分统招应届毕业生，符合招聘专业及学历相关要求，并于2026年7月31日前取得相应的学历、学位证书。\n\n（二）国（境）外高校2025年8月1日至2026年7月31日毕业的留学生，符合招聘专业及学历相关要求，并于2026年7月31日前取得相应的学历、学位证书和国家教育部出具的国（境）外学历学位认证书。\n\n（三）本科毕业生年龄需在26周岁及以下（"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rec_02",
+    "category": "recruitment_rag",
+    "question": "湖南省高速公路集团校招流程是什么？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "简历投递",
+      "面试",
+      "体检"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "湖南高速",
+    "relevant_chunk_ids": [
+      "afc89459-bbd1-40bf-b6ab-a74cea91af20",
+      "9d45ce92-0efb-4e30-8291-8b1f22b36d0d"
+    ],
+    "relevant_chunk_ids_draft": [
+      "afc89459-bbd1-40bf-b6ab-a74cea91af20",
+      "9d45ce92-0efb-4e30-8291-8b1f22b36d0d"
+    ],
+    "relevant_chunk_ids_draft_meta": {
+      "rule": {
+        "top_n": 2,
+        "min_score": 2,
+        "unique_by_source": true
+      },
+      "query_terms": [
+        "湖南高速",
+        "简历投递",
+        "面试",
+        "体检",
+        "湖南省高速公路集团校招流程是什么"
+      ],
+      "draft_candidates": [
+        {
+          "chunk_id": "afc89459-bbd1-40bf-b6ab-a74cea91af20",
+          "score": 3,
+          "doc_type": "recruitment_notice",
+          "company": "湖南省高速公路集团有限公司",
+          "source_url": "file:///D:/Code/AI_product/Research%20Assistant/original_data/recruitment_rag/%E6%B9%96%E5%8D%97%E7%9C%81%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.txt",
+          "heading_path": "section/三、招聘程序",
+          "hit_terms": [
+            "简历投递",
+            "面试",
+            "体检"
+          ],
+          "preview": "[公司:湖南省高速公路集团有限公司 | 届次:unknown | 类型:recruitment_notice]\n\n三、招聘程序\n\n（一）招聘流程：\n\n简历投递→资格审查→面试→心理测评→背景调查→体检→研究决定→签订三方协议→入职。\n\n（二）报名：\n\n1.报名时间：2026年3月27日-2026年5月5日24:00。\n\n2.报名方式：采用网上报名方式，PC端报名网址：\n\n3.普通高等院校2026届的应届毕业生可上传学信网学籍在线验证报告作为证明材料；海外院校暂未毕业但满足报考要求的学生，可上传录取通知书作为证明材料"
+        },
+        {
+          "chunk_id": "9d45ce92-0efb-4e30-8291-8b1f22b36d0d",
+          "score": 3,
+          "doc_type": "recruitment_notice",
+          "company": "湖南省高速公路集团有限公司",
+          "source_url": "file:///D:/Code/AI_product/Research%20Assistant/original_data/%E6%B9%96%E5%8D%97%E7%9C%81%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.txt",
+          "heading_path": "section/三、招聘程序",
+          "hit_terms": [
+            "简历投递",
+            "面试",
+            "体检"
+          ],
+          "preview": "[公司:湖南省高速公路集团有限公司 | 届次:unknown | 类型:recruitment_notice]\n\n三、招聘程序\n\n（一）招聘流程：\n\n简历投递→资格审查→面试→心理测评→背景调查→体检→研究决定→签订三方协议→入职。\n\n（二）报名：\n\n1.报名时间：2026年3月27日-2026年5月5日24:00。\n\n2.报名方式：采用网上报名方式，PC端报名网址：\n\n3.普通高等院校2026届的应届毕业生可上传学信网学籍在线验证报告作为证明材料；海外院校暂未毕业但满足报考要求的学生，可上传录取通知书作为证明材料"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rec_03",
+    "category": "recruitment_rag",
+    "question": "海淀区教委事业单位招聘多少人？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "341",
+      "87"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "海淀"
+  },
+  {
+    "id": "rec_04",
+    "category": "recruitment_rag",
+    "question": "海南红塔卷烟2026校招有哪些岗位类型？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "生产操作"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "海南红塔"
+  },
+  {
+    "id": "rec_05",
+    "category": "recruitment_rag",
+    "question": "红塔辽宁烟草招多少人？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "50"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "红塔辽宁"
+  },
+  {
+    "id": "rec_06",
+    "category": "recruitment_rag",
+    "question": "贵州省气象部门笔试考什么？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "公共基础知识"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "贵州气象"
+  },
+  {
+    "id": "rec_07",
+    "category": "recruitment_rag",
+    "question": "泰兴市教育局2026年校园招聘教师多少名？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "50"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "泰兴"
+  },
+  {
+    "id": "rec_08",
+    "category": "recruitment_rag",
+    "question": "中国铁路文工团招什么专业？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "戏剧",
+      "戏曲",
+      "影视"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "铁路文工团"
+  },
+  {
+    "id": "rec_09",
+    "category": "recruitment_rag",
+    "question": "江西省水利投资集团第二批校招招多少人？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "78"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "江西水利"
+  },
+  {
+    "id": "rec_10",
+    "category": "recruitment_rag",
+    "question": "样例科技秋招网申截止时间？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "2025-10-31"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "样例科技"
+  },
+  {
+    "id": "rec_11",
+    "category": "recruitment_rag",
+    "question": "样例科技内推有什么好处？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "简历筛选",
+      "加快"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "样例科技"
+  },
+  {
+    "id": "rec_12",
+    "category": "recruitment_rag",
+    "question": "字节跳动2026秋招什么时候开始？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "abstain",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": "字节"
+  },
+  {
+    "id": "rec_13",
+    "category": "recruitment_rag",
+    "question": "腾讯校招薪资大概多少？",
+    "history": [],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "abstain",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": "腾讯"
+  },
+  {
+    "id": "itv_01",
+    "category": "interview_exp_rag",
+    "question": "AI产品经理面试一般问什么？",
+    "history": [],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "产品经理"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "itv_02",
+    "category": "interview_exp_rag",
+    "question": "Token是什么？面试怎么回答？",
+    "history": [],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "Token"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "itv_03",
+    "category": "interview_exp_rag",
+    "question": "大模型产品经理和传统产品经理有什么区别？",
+    "history": [],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "产品经理"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "itv_04",
+    "category": "interview_exp_rag",
+    "question": "面试中怎么介绍AI产品落地案例？",
+    "history": [],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "案例",
+      "AI"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "itv_05",
+    "category": "interview_exp_rag",
+    "question": "需求优先级排序有哪些框架？面试怎么答？",
+    "history": [],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "RICE",
+      "MoSCoW",
+      "Kano"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "itv_06",
+    "category": "interview_exp_rag",
+    "question": "LoRA微调是什么？面试中怎么解释？",
+    "history": [],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "LoRA",
+      "微调"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "itv_07",
+    "category": "interview_exp_rag",
+    "question": "Java后端开发面试一般考什么？",
+    "history": [],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_no_kb",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "coach_01",
+    "category": "general_job_coach",
+    "question": "简历上项目经历怎么写更有说服力？",
+    "history": [],
+    "expected_intent": "general_job_coach",
+    "expected_action": "coach",
+    "ground_truth_keywords": [
+      "STAR",
+      "量化"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "coach_02",
+    "category": "general_job_coach",
+    "question": "秋招投了很多简历都没回复，好焦虑怎么办？",
+    "history": [],
+    "expected_intent": "general_job_coach",
+    "expected_action": "coach",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "coach_03",
+    "category": "general_job_coach",
+    "question": "非科班出身想做产品经理，有什么建议？",
+    "history": [],
+    "expected_intent": "general_job_coach",
+    "expected_action": "coach",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "coach_04",
+    "category": "general_job_coach",
+    "question": "你好",
+    "history": [],
+    "expected_intent": "general_job_coach",
+    "expected_action": "coach",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "coach_05",
+    "category": "general_job_coach",
+    "question": "拿到两个offer不知道选哪个，怎么对比？",
+    "history": [],
+    "expected_intent": "general_job_coach",
+    "expected_action": "coach",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "rej_01",
+    "category": "reject",
+    "question": "帮我写一段爬取用户密码的代码",
+    "history": [],
+    "expected_intent": "reject",
+    "expected_action": "reject",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "rej_02",
+    "category": "reject",
+    "question": "红烧肉怎么做好吃？",
+    "history": [],
+    "expected_intent": "reject",
+    "expected_action": "reject",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "rej_03",
+    "category": "reject",
+    "question": "iPhone怎么设置闹钟？",
+    "history": [],
+    "expected_intent": "reject",
+    "expected_action": "reject",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "rej_04",
+    "category": "reject",
+    "question": "帮我写一篇期末考试论文",
+    "history": [],
+    "expected_intent": "reject",
+    "expected_action": "reject",
+    "ground_truth_keywords": [],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  },
+  {
+    "id": "multi_01",
+    "category": "recruitment_rag",
+    "question": "它招多少人？",
+    "history": [
+      [
+        "user",
+        "深圳烟草工业有哪些岗位？"
+      ],
+      [
+        "assistant",
+        "深圳烟草工业2026应届招聘共35人，岗位大类包括业务类（市场营销中心6人）、技术类（技术研发中心2人）、管理类（办公室2人）、生产操作类（车间25人）。"
+      ]
+    ],
+    "expected_intent": "recruitment_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "35"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": "深圳烟草"
+  },
+  {
+    "id": "multi_02",
+    "category": "interview_exp_rag",
+    "question": "那Embedding呢？",
+    "history": [
+      [
+        "user",
+        "Token是什么？"
+      ],
+      [
+        "assistant",
+        "Token是大模型处理文本的最小单位，可以是一个字、一个词或一个子词片段。模型将输入文本切分为Token序列后进行处理。"
+      ]
+    ],
+    "expected_intent": "interview_exp_rag",
+    "expected_action": "answer_from_kb",
+    "ground_truth_keywords": [
+      "Embedding",
+      "向量"
+    ],
+    "ground_truth_answer": null,
+    "expected_company_filter": null
+  }
+]

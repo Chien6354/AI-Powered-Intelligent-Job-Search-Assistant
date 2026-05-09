@@ -1,0 +1,61 @@
+# Paths (relative to project root)
+sqlite_path: data/kb.sqlite3
+chroma_path: data/chroma_db
+
+# 向量存储：chroma | sqlite_numpy（Windows 上 Chroma upsert 易闪退时用 sqlite_numpy）
+vector_store: sqlite_numpy
+
+# Chunking
+window_chars: 600
+overlap_chars: 100
+faq_max_single_chunk_chars: 2000
+# 招聘公告一级小节（一、二、…）整段上限，超过则对该节滑窗；sheet_row 单行文本亦用此上限
+recruitment_section_max_chars: 2000
+# 未来：一级节仍超长时是否再按（一）（二）切分（当前未实现）
+recruitment_subsection_split: false
+
+# Retrieval
+retrieve_top_k: 32
+rerank_top_n: 8
+final_context_chunks: 5
+# 多轮对话时是否调用 LLM 将检索 query 改写为独立短句（话题切换时不串味；指代时合并上文）。false=仅用当前用户一句
+retrieval_query_rewrite_enabled: true
+
+# Similarity threshold (cosine on normalized vectors ~ inner product for ST)
+# Tune with your eval set; lower = more abstain
+min_similarity: 0.28
+# 重排后逐条过滤：仅保留 vector_similarity >= 该值（不设置则与 min_similarity 相同）
+# min_similarity_after_rerank: 0.28
+
+# 重排最高分（CrossEncoder 原始分）低于此值则视为未命中知识库；设为 null 关闭该门禁
+min_rerank_score: 0.28
+
+# 路由意图与按库检索：recruitment_rag / interview_exp_rag 使用的 documents.doc_type 白名单
+router_recruitment_doc_types:
+  - recruitment_notice
+  - sheet_row
+  - official_notice
+  - faq
+  - jd
+  - general
+router_interview_doc_types:
+  - interview_exp
+  - interview_note
+
+# 招聘意图无库命中时是否尝试联网摘要（false=仅用本地 COMPOSE_RECRUITMENT_FALLBACK 文案）
+web_search_enabled: true
+# 联网提供者：duckduckgo | tavily | auto（auto：有 TAVILY_API_KEY 则 Tavily，否则 DuckDuckGo）
+web_search_provider: auto
+tavily_max_results: 5
+tavily_search_depth: basic
+
+# 向量嵌入：local=本机 SentenceTransformer；openai=API（如 text-embedding-3-small，需 OPENAI_API_KEY）
+embedding_backend: local
+openai_embedding_model: text-embedding-3-small
+openai_embedding_batch_size: 64
+
+# 仅当 embedding_backend=local 时使用（相对项目根；HF 缓存目录可写 models--Org--Name，会自动指向 snapshots/<rev>）
+embedding_model: bge-m3
+
+# 重排：离线完整快照目录（相对项目根，等价于 .../Research Assistant/bge-reranker-v2-m3）
+reranker_model: bge-reranker-v2-m3

@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+data/chroma_db/
+data/kb.sqlite3
+data/eval/eval_template.xlsx
+.streamlit/
+bge-m3
+bge-reranker-v2-m3
+models--BAAI--bge-reranker-v2-m3

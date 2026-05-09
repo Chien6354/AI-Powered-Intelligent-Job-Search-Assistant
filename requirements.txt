@@ -1,0 +1,23 @@
+# Campus recruitment RAG assistant
+chromadb>=0.4.24
+sentence-transformers>=3.0.0
+# transformers 加载 .bin 权重需 torch>=2.6（CVE-2025-32434）；或用 safetensors 权重可放宽
+# Windows 若 import torch 报 WinError 1114（c10.dll）：用官方 CPU 轮并固定 2.6.x 常可解决，例如：
+#   pip install torch==2.6.0+cpu torchvision==0.21.0+cpu torchaudio==2.6.0+cpu --index-url https://download.pytorch.org/whl/cpu
+# 并删除 Anaconda\Lib\site-packages 下残留目录 ~orch-*.dist-info、~unctorch（pip 曾提示 invalid distribution ~orch）
+torch>=2.6.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+selectolax>=0.3.17
+PyMuPDF>=1.24.0
+PyYAML>=6.0.1
+python-dotenv>=1.0.1
+openai>=1.40.0
+streamlit>=1.36.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+numpy>=1.24.0
+# 招聘兜底联网摘要（可选，settings 中 web_search_enabled=true 时使用）
+duckduckgo-search>=6.0.0
+# 浏览器自动化（可选，用于Boss自动登录搜索）
+DrissionPage>=4.0.0

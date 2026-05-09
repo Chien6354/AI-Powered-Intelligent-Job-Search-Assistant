@@ -1,0 +1,72 @@
+[
+  {
+    "name": "HMACCOUNT",
+    "value": "111FF2686A864797",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "__g",
+    "value": "-",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "zp_at",
+    "value": "dQabZTunT0ePN-TWCRqxFCbxAueGqabpOQKqOR9iarA~",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "lastCity",
+    "value": "101190400",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "Hm_lvt_194df3105ad7148dcf2b98a91b5e727a",
+    "value": "1775538908,1775538973,1775539361,1775539785",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "wt2",
+    "value": "DXIFtxb02nZfZvdRKUthiYFmJyoYGpQOLInNlTM6GFzMFjqsVOBN17lpRPqYG7eu3qAqSJdYkb1W9gijdDEqClA~~",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "ab_guid",
+    "value": "e1663515-b8c6-4c79-b169-5b3130d3ae6c",
+    "domain": "www.zhipin.com"
+  },
+  {
+    "name": "wbg",
+    "value": "0",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "__c",
+    "value": "1775539783",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "__a",
+    "value": "63858182.1775538877.1775539359.1775539783.22.6.5.22",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "bst",
+    "value": "V2RNIvFOX53F1oVtRuyBsdKiO47DrVwy0~|RNIvFOX53F1oVtRuyBsdKiO47DrWxi8~",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "__zp_stoken__",
+    "value": "94e4gw4MPCnszDAlYF3leUnxfcGp0U1NRVlrCvVXCscOHwrnCoElcScKjTMKsVEvCtMKiwrPCvMK0w73CrMKpVMKVwq7CkUzCrcKpwo7CnsO5wrfDtMKaw73CmsKAUcO6wpzDucKiwo3CoMOVwrXDg8Krw6nCgcOoxJXDgMS3xILDssONwrnCijIpwr%2FDucSyxLzEvsS%2Bw5jDssS8xL7EvsK4xLLEvMS%2Bw5rDuMOKw4zEvsS%2BxLvEssS8xL7EvkQ7MjExMjs1wq8%2FRSN9CT85wr7CgsKyw4PCsMKzwrFHw4bCucK%2FFToQGQ8WUxRkDw0CDxRYUwJTZA8NFAMOXGZlFWZdCgEUDgwVLy3DhjkBwrA2FT0Bwr%2FCnRXCvGIDw49ew6%2FCnEnCsVYYIjHCpzk9RcK%2FxL45PT0wPzk4Mh1FRjxEMDAxPDItMcK%2FwpvDjVjDo8KYVcKzwrwdPjs9Pz85LnYwMD8%2BMjAwPTxELDA%2BDSxFwrPDs8Kzw40wMA%3D%3D",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "__l",
+    "value": "l=%2Flogin.zhipin.com%2F&r=&g=&s=3&friend_source=0&s=3&friend_source=0",
+    "domain": ".zhipin.com"
+  },
+  {
+    "name": "Hm_lpvt_194df3105ad7148dcf2b98a91b5e727a",
+    "value": "1775542139",
+    "domain": ".zhipin.com"
+  }
+]

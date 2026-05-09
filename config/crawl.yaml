@@ -1,0 +1,28 @@
+# Rate limits (seconds between requests)
+delay_seconds: 15.0  # 增加延迟避免反爬
+max_job_pages_per_run: 30  # 测试运行，限制为30条
+max_retries: 3
+backoff_base_seconds: 5
+
+# 方式1: Boss直聘搜索配置（浏览器自动化，需要登录）
+boss_search:
+  keywords:
+    - "python"
+    - "java"
+    - "前端"
+  city: "北京"  # 城市名，可改为多个城市
+  max_pages_per_keyword: 1  # 测试：每关键词最大页数
+  max_jobs_per_keyword: 10  # 测试：每关键词最大职位数
+
+# 方式2: 直接指定Boss职位详情页URL（传统方式，无需登录）
+boss_job_urls:
+  - "https://www.zhipin.com/job_detail/abc123.html"
+
+# Generic official pages (HTML)
+official_urls: []
+  # - url: "https://example.com/campus"
+  #   company: "示例公司"
+  #   season: "2026秋招"
+  #   doc_type: official_notice
+
+user_agent: "CampusRAGBot/0.1 (+{contact})"
