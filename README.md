@@ -1,6 +1,6 @@
 # 校招助手
 
-+ 混合检索+Cross-Encoder 重排 + DeepSeek 生成；Streamlit 演示）。
++ 混合检索+Cross-Encoder 重排 + DeepSeek 生成；Streamlit 演示。
 
 ## 环境
 
